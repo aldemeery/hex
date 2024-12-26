@@ -1,0 +1,24 @@
+{
+    "name": "aldemeery/hex",
+    "type": "project",
+    "require-dev": {
+        "symfony/var-dumper": "^7.1"
+    },
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "App\\": "app/",
+            "Hex\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Osama Aldemeery",
+            "email": "aldemeery@gmail.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {
+        "symfony/console": "^7.1"
+    }
+}
